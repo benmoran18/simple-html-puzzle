@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Puzzle pieces</title>
+  <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+  <script src="scripts/dragging.js"></script>
+</head>
+
+<body>
+  <div class="main_container">
+      <img class="space" name="source" src="images/cat3.png" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" />
+      <img class="space" name="source" src="images/cat2.png" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" />
+      <img class="space" name="source" src="images/cat4.png" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" />
+      <img class="space" name="source" src="images/cat3.png" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" />
+      <br><br>
+
+      <img class="space" name="puzzle" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" />
+      <img class="space" name="puzzle" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" /><br>
+      <img class="space" name="puzzle" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" />
+      <img class="space" name="puzzle" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" />
+  </div>
+
+  <button onclick="checkPuzzle()" >Check</button>
+</body>
+
+</html>

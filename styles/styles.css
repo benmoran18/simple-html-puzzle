@@ -1,0 +1,23 @@
+body {
+  text-align:center;
+}
+
+div {
+  padding:20px;
+}
+
+div.main_container {
+  margin-left:20%;
+  margin-right:20%;
+}
+
+div.piece_container, div.space_container {
+  margin-top:20px;
+  border:1px #ccc solid;
+}
+
+img.piece, img.space {
+  width:100px;
+  height:100px;
+  display:inline-block;
+}
